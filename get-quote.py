@@ -1,7 +1,8 @@
 import random
 
-def main():
- print("Keep it logically awesome.")
+def primary():
+ string = "Keep it logically awesome\d"
+ print(string)
 
  f = open("quotes.txt")
  quotes = f.readlines()
@@ -12,4 +13,4 @@ def main():
  print(quotes[rnd])
 
 if __name__== "__main__":
-  main()
+  primary()
